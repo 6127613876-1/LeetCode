@@ -10,11 +10,9 @@ public class BuyandSellStock
             {
                 min = prices[i];
             }
-            else
-            {
-                int p = prices[i]-min;
-                if(p>max)
-                {
+            else {
+                int p = prices[i] - min;
+                if (p > max) {
                     max = p;
                 }
             }
